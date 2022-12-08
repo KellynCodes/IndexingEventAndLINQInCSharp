@@ -1,4 +1,4 @@
-﻿namespace LINGQ
+﻿namespace LINGQ.IndexingAndDelegate
 {
     internal class Indexer
     {

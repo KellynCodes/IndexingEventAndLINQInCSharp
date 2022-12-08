@@ -1,14 +1,14 @@
-﻿namespace LINGQ
+﻿namespace LINGQ.IndexingAndDelegate
 {
-    internal class FilteringOperator
+    internal class DelegateExamples
     {
-         event Func<int, int, bool> TrueOrFalse;
+        event Func<int, int, bool> TrueOrFalse;
 
         public void LogIsTrue(Func<int, int, bool> result) => TrueOrFalse += result;
 
         void IsTrue(int number, int number1) => TrueOrFalse(number, number1);
 
-      public void ConsoleResult()
+        public void ConsoleResult()
         {
             IsTrue(9, 2);
             ActionBool("Kelechi Amos", 24);
