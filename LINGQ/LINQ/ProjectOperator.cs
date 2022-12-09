@@ -76,7 +76,6 @@ namespace LINGQ.LINQ
                         Years = racer.Years
                     }
                 );
-
                 foreach (var car in result)
                 {
                     Console.WriteLine($"Name:{car.Racer} ,Car: {car.CarName}");

@@ -132,7 +132,9 @@ namespace LINGQ.LINQ
 
             public static void Template()
             {
-
-            }
+                var racers = Formula1.GetChampions();
+            var ChangeTypeOfRacer = racers.OfType<string>();
+            Console.WriteLine(ChangeTypeOfRacer);
         }
+    }
     }

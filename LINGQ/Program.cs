@@ -42,4 +42,5 @@ static bool CheckIfTrue(int number1, int number2)
 //FilteringOperator.QueryUkRacers2();
 
 //Stephen
-FilteringOperator.LondonRacers();
+//FilteringOperator.LondonRacers();
+//FilteringOperator.Template();
