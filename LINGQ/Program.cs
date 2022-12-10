@@ -1,6 +1,5 @@
 ﻿using LINGQ.IndexingAndDelegate;
 using LINGQ.LINQ;
-
 DelegateExamples filteringOperator = new();
 
 Indexer indexer = new();
@@ -40,7 +39,12 @@ static bool CheckIfTrue(int number1, int number2)
 //Charles
 //FilteringOperator.QueryRacers2();
 //FilteringOperator.QueryUkRacers2();
-
 //Stephen
 //FilteringOperator.LondonRacers();
 //FilteringOperator.Template();
+
+//ProjectorOperator.CheckIfItemHaveWhiteSpace();
+//ProjectorOperator.QueryOverStringsWithExtensionMethods();
+//ProjectorOperator.QueryOverStringsLongHand();
+//ProjectorOperator.SettingDefaults();
+ProjectorOperator.GetUnenumeratedCount();
